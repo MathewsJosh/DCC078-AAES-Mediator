@@ -23,7 +23,7 @@ class ClienteTest {
     }
 
     @Test
-    void deveParcelarComConcierge() {
+    void deveParcelarViagemComConcierge() {
         Cliente cliente = new Cliente();
         assertEquals("A AgenciaDeViagens agradece seu contato.\nO Concierge respondeu sua demanda conforme mensagem a seguir.\n" +
                 ">>O Concierge vai analisar o parcelamento: Gostaria de parcelar a viagem em 96 vezes.",
